@@ -10,14 +10,17 @@ Note: The script will check all the files ending with ".png" and attempt to extr
 
 
 # Sample Images
-<img src="extract01.png" width="500px">
-<img src="extract02.png" width="500px">
-<img src="extract03.png" width="500px">
+![extract01.png](https://github.com/skociu/OCR-image-translation/blob/master/extract01.png)
+
+![extract02.png](https://github.com/skociu/OCR-image-translation/blob/master/extract02.png)
+
+![extract03.png](https://github.com/skociu/OCR-image-translation/blob/master/extract03.png)
 
 # Translated Image Texts
-<p><a href='https://github.com/skociu/OCR-image-translation/blob/master/translated_extract01.txt'>translated_extract01.txt</a></p>
-<p><a href='https://github.com/skociu/OCR-image-translation/blob/master/translated_extract02.txt'>translated_extract02.txt</a></p>
-<p><a href='https://github.com/skociu/OCR-image-translation/blob/master/translated_extract03.txt'>translated_extract03.txt</a></p>
+[translated_extract01.txt](https://github.com/skociu/OCR-image-translation/blob/master/translated_extract01.txt)
 
+[translated_extract02.txt](https://github.com/skociu/OCR-image-translation/blob/master/translated_extract02.txt)
+
+[translated_extract03.txt](https://github.com/skociu/OCR-image-translation/blob/master/translated_extract03.txt)
 # Sources
 Gutenberg http://www.gutenberg.org/files/41211/41211-h/41211-h.htm
