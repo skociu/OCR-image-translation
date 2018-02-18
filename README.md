@@ -15,9 +15,9 @@ Note: The script will check all the files ending with ".png" and attempt to extr
 <img src="extract03.png" width="500px">
 
 # Translated Image Texts
-translated_extract01.txt
-translated_extract02.txt
-translated_extract03.txt
+<p><a href='https://github.com/skociu/OCR-image-translation/blob/master/translated_extract01.txt'>translated_extract01.txt</a></p>
+<p><a href='https://github.com/skociu/OCR-image-translation/blob/master/translated_extract02.txt'>translated_extract02.txt</a></p>
+<p><a href='https://github.com/skociu/OCR-image-translation/blob/master/translated_extract03.txt'>translated_extract03.txt</a></p>
 
 # Sources
 Gutenberg http://www.gutenberg.org/files/41211/41211-h/41211-h.htm
