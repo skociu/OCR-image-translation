@@ -63,16 +63,19 @@ class Translation:
 
     
 if __name__ == "__main__":
-    pytesseract_image_language = 'fra'
-    from_language = 'fr'
-    to_language = 'en'
-    extract_img = 'extract.png'
-    extract_file = 'extract.txt'
-    translate_file = 'translate.txt'
-    t=Translation()
-    t.extract_image_text()
-    t.write_image_text()
-    t.write_translation()
-    t.remove_extract_file()
-    t.view_translation()
-    print('done')
+    mypath =  os.path.dirname(os.path.abspath(__file__))
+    for f in os.listdir(mypath):
+        if f.endswith(".png"):
+            pytesseract_image_language = 'fra'
+            from_language = 'fr'
+            to_language = 'en'
+            extract_img = "{}".format(f)
+            extract_file = "{}.txt".format(os.path.splitext(f)[0])
+            translate_file = "translated_{}.txt".format(os.path.splitext(f)[0])
+            t=Translation()
+            t.extract_image_text()
+            t.write_image_text()
+            t.write_translation()
+            t.remove_extract_file()
+            #t.view_translation()
+            print('done')
